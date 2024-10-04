@@ -1,0 +1,334 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing:border-box;
+}
+/*-- HEADER SECTION START------------------------------ --*/
+/*---------------------------------------------------- --*/
+/*
+header{
+    position:relative;
+    width:100%;
+    height:80px;
+  //  box-shadow:2px 0px 12px gray;
+    background-color:white;
+}
+header nav{
+    //  float:right;   
+    position:fixed;
+  }
+header nav a img{
+     position:absolute;
+     left:0px;
+     top:0px;
+    
+}
+
+header nav ul {
+    display:flex; 
+    list-style:none;
+}
+header nav ul li {
+    margin: 0px 40px;
+    line-height:40px;
+    padding:0px 30px;
+   
+    
+}
+header nav ul li a{
+   // margin: 40px 10px;
+  //  line-height:50px;
+    text-decoration:none;
+    color:black;
+    border-bottom:2px solid green;
+    position:fixed;
+}
+ 
+.my-div{
+    margin-top:45px;
+    background-color:white;
+    box-shadow:0px 0px 5px gray;
+    border-radius:10px;
+ //   padding:4px 0px;
+}
+*/
+/*
+.my_arrow{
+    position:absolute;
+    top:55px;
+    left:400px;
+    color:black;
+}
+
+header nav .navbar-nav .submenu{
+    margin-left:0px;
+    list-style:none;
+    display:none;
+  //  
+}
+
+header nav .navbar-nav li:hover .submenu{
+    display:block;
+    transition:all 1s;
+}
+header nav .navbar-nav span li:hover{
+    display:block;
+}
+*/
+ /*............Auplaying Carousel........ */
+
+ /* .carousel-control-prev .carousel-control-prev-icon{
+    color:red;
+} */
+/*-- HEADER SECTION END------------------------------ --*/
+/*-- -------------------------------------------------- --*/
+/* ---------------------------------------------------------------------------------- */
+/*--  ARTICLE START------------------------------ ->
+/*-- -------------------------------------------------- --*/
+
+#product_article{
+    width:100%;
+    height:auto;
+    color:black;
+    position:relative;
+    background-color:white;
+    overflow:hidden;
+}
+/****** swiper section start ***** */
+#swiper_section{
+    background-color:white;
+    padding:50px 0px;
+    
+
+}
+
+ #swiper_section .slider-wrapper{
+    
+    margin-top:20px; 
+    align-items:center;
+    position:relative;
+     
+}
+
+#swiper_section .slider-wrapper .card-item{
+    margin:40px 20px;
+    padding:0px 50px;
+    background-color:white;
+   
+} 
+
+ #swiper_section .slider-wrapper .card-item p{
+    padding:30px 0px;
+    margin:0px;
+    font-size:25px;
+}
+#swiper_section .slider-wrapper .swiper-pagination-bullets{
+    position:absolute;
+    bottom:-40px;
+}
+#swiper_section .slider-wrapper .swiper-pagination-bullet{
+    background-color:white;
+    border:1px solid gray;
+    height:16px;
+    width:16px;
+    opacity:1;
+    transition:all 0.6s;
+   
+    
+}
+#swiper_section .slider-wrapper .swiper-pagination-bullet-active{
+    background-color:green;
+    height:17px;
+    width:17px;
+    opacity:1;
+    transition:all 0.6s;
+}
+
+/****** swiper section end ***** */
+/****former section start****/
+
+#former_section{
+ // background-color:black;
+  margin:100px 0px;
+  background:url(../img/f2fbgn.jpg) fixed;
+  background-size:cover;
+  background-position:center;
+}
+
+/****former section end****/
+/****video section start****/
+#video_section{
+//    background-color:green;
+    
+}
+
+/****video section end****/
+/****map section start****/
+#map_section{
+ //   background-color:orange;
+
+}
+
+/****map section end****/
+/****why mangal section start****/
+
+#why_mangal_section{
+    margin:100px 0px;
+    background: linear-gradient(rgba(5,5,5,0.8),rgba(5,5,5,0.8)),url(../img/f1.jpg) ;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+}
+#why_mangal_section h2{
+    font-size:65px;
+    padding:30px 0px;
+}
+#why_mangal_section h3{
+    line-height:50px;
+}
+
+#btn_first{
+      border-radius:20px;
+      border:2px solid white;
+      padding:20px 40px;
+      color:white;
+      font-weight:bold;
+      background:transparent;
+      margin-top:30px ;
+      font-size:20px;
+}
+#btn_first:hover{
+     background-color:#D8D7D7;
+     color:#252218;
+}
+/****why mangal section end****/
+/****certificate section start****/
+#certificate_section{
+   // background-color:blue;
+}
+#swiper2_section .slider-wrapper{
+    
+    margin-top:20px; 
+    align-items:center;
+    position:relative;
+     
+}
+
+#swiper2_section .slider-wrapper .card-item{
+    margin:40px 0px;
+    padding:0px 50px;
+    background-color:white;
+   
+} 
+
+#swiper2_section .slider-wrapper .swiper-pagination-bullets{
+    position:absolute;
+    bottom:-40px;
+}
+#swiper2_section .slider-wrapper .swiper-pagination-bullet{
+    background-color:white;
+    border:1px solid gray;
+    height:16px;
+    width:16px;
+    opacity:1;
+    transition:all 0.6s;
+}
+#swiper2_section .slider-wrapper .swiper-pagination-bullet-active{
+    background-color:green;
+    height:17px;
+    width:17px;
+    opacity:1;
+    transition:all 0.6s;
+}
+
+#certificate_section h2{
+    font-size:55px;
+}
+
+/****certificate section end****/
+
+
+/*--  ARTICLE END------------------------------ -->
+<!-- -------------------------------------------------- --*/
+/* ------------------------------------------------------------------------------------------- */
+/*-- FOOTER START------------------------------ -->
+<!-- -------------------------------------------------- --*/
+
+footer {
+    background-color:#000000;
+    color:white;
+}
+
+.box{
+    border-radius:10px;
+    border:2px solid white;
+    padding:5px 20px;
+    width:70px;
+    height:auto;
+    margin:0px 5px;
+
+}
+
+
+/*-- FOOTER END------------------------------ -->
+<!-- -------------------------------------------------- --*/
+
+
+
+
+/* ------RESPONSIVE PAGE -------------------------------------*/
+
+/* ------------------------------------------------------------ */
+@medea screen and (max-width:1200px){
+   
+}
+@medea sceen and (max-width:992px){
+
+
+}
+@medea sceen and (max-width:768px){
+
+    #product_section #swiper .slider-wrapper .card-item p{
+        padding:30px 0px;
+        margin:0px;
+        font-size:15px;
+    }
+    
+}
+@medea sceen and (max-width:576px){
+
+}
+@medea sceen and (max-width:425px){
+ /* 
+    #product_section #swiper{
+        padding:0px 4px;
+        margin:0px 10px;
+    }
+    #product_section #swiper .slider-wrapper{   
+        margin-top:20px; 
+        padding:60px 20px;
+    }
+    
+    #product_section #swiper .slider-wrapper .card-item{
+       
+        margin:0px 10px;
+    }
+    #product_section #swiper .slider-wrapper .card-item p{
+        padding:30px 0px;
+        font-size:15px;
+    }
+    #swiper .slider-wrapper .swiper-pagination-bullet{
+        height:8px;
+        width:8px;
+        opacity:1;
+        transition:all 0.6s;
+    }
+    #swiper .slider-wrapper .swiper-pagination-bullet-active{
+        height:9px;
+        width:9px;
+        opacity:1;
+        transition:all 0.6s;
+    }
+     */
+}
