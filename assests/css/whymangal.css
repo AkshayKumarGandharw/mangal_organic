@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* content  section first-second start*/
+#content_section_1 p{
+    line-height:50px;
+    font-size:25px;
+    margin:0px 100px;
+}
+#ul_section ul{
+    margin:0px 0px  100px 0px;
+   
+}
+#ul_section ul li{
+    line-height:50px;
+    font-size:25px;
+    margin:0px 100px 0px 150px;
+    
+}
+#ul_section h2{
+    margin:0px 100px;
+}
+/* content  section first-second end*/
+/* former section first start*/
+#former_section_1{
+    
+    width:100%;
+    height:auto;
+   //  margin:100px 0px;
+     background:linear-gradient(rgba(5,5,5,0.8),rgba(5,5,5,0.8)),url(../img/why_magal_img/s5.jpg) fixed;
+     background-size:cover;
+     background-position:center;
+   }
+/* former section first end*/
+/* former section second start*/
+   #former_section_2{
+    
+    width:100%;
+    height:auto;
+     margin:0px 0px;
+     background:linear-gradient(rgba( 236, 240, 241,0.8),rgba( 236, 240, 241,0.8)),url(../img/why_magal_img/f1.jpg) fixed;
+     background-size:cover;
+     background-position:center;
+   }
+/* former section second end*/
+
+/* why mangal section start */
+   #why_mangal_section{
+    margin:100px 0px 0px 0px;
+    background: linear-gradient(rgba(5,5,5,0.8),rgba(5,5,5,0.8)),url(../img/why_magal_img/s5.jpg);
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+}
+/* #why_mangal_section h2{
+    font-size:65px;
+    padding:30px 0px;
+}
+    */
+#why_mangal_section p{
+   line-height:50px;
+   
+} 
+#why_mangal_section img{
+    padding:20px;
+}
+#why_mangal_section .box{
+    width:400px;
+    height:auto;
+    background-color:white;
+    color:black;
+    
+}
+#why_mangal_section .container{
+    padding:0px auto;
+}
+#why_mangal_section p {
+    padding:50px 20px;
+    font-size:24px;
+    text-align:left;
+}
+
+
+/* why mangal section end */

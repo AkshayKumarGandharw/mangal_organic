@@ -1,0 +1,12 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#content_section{
+    
+     margin:50px 0px;
+ }
+#content_section img{
+    margin:0px auto;
+}

@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/* former welfare section start */
+#former_welfare_section{
+    margin:100px 0px 0px 0px;
+    background-color:white;
+    text-align:center;
+}
+#former_welfare_section .head_box{
+    padding:0px 100px;
+    background-color:black;
+}
+#former_welfare_section p{
+   line-height:50px;
+   
+} 
+#former_welfare_section h3{
+    margin:20px 0px;
+} 
+#former_welfare_section .box{
+    width:400px;
+    height:auto;
+    box-shadow:0px 3px 5px gray;
+    background-color:white;
+    color:black;
+}
+/* #former_welfare_section .container{
+    padding:0px 150px;
+} */
+#former_welfare_section p {
+    padding:50px 20px;
+    font-size:24px;
+    text-align:left;
+}
+
+/*former welfare section end */
+
+
+/* responsive page */
+
+
+@media screen and (max-width:992px)
+{
+    /* #former_welfare_section .container{
+        padding:0px 100px;
+    } */
+
+}
+@media screen and (max-width:768px)
+{
+    
+
+}
+@media screen and (max-width:576px)
+{
+    #former_welfare_section .container{
+        padding:0px 20px;
+    }
+
+}

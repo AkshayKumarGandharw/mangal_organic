@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+p{
+    line-height:50px;
+    font-size:25px;
+    margin:0px 100px;
+}
+
+/* responsive page */
+
+@media screen and(max-width:576px)
+{
+    p{
+    
+        margin:0px 10px;
+    }
+}

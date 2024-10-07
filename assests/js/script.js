@@ -1,6 +1,30 @@
 //check connectivity 
 console.log("js connect properly ...");
 
+// code for header
+
+const my_header = document.querySelector("#my_header");
+
+    window.addEventListener('scroll',()=>{
+
+            if(window.scrollY >= 100)
+            {
+                my_header.classList.add("scroll-header");
+            }
+            else if(window.scrollY < 100)
+            {
+                my_header.classList.remove("scroll-header");
+            }
+            
+    });
+
+
+
+
+
+
+
+
 // code for swiper 
 
 new Swiper('.slider-wrapper', {
