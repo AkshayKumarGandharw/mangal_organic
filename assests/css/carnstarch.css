@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-p{
+#content_section p{
     line-height:50px;
     font-size:25px;
     margin:0px 100px;
@@ -20,4 +20,65 @@ p{
 }
 #ul_section h2{
     margin:0px 100px;
+}
+
+
+
+/* responsive page */
+
+@media sceen and(max-width:992px)
+{
+    #content_section p{
+        font-size:25px;
+        margin:0px 50px;
+    }
+
+    #ul_section ul li{
+        
+        font-size:25px;
+        margin:0px 100px 0px 100px;
+        
+    }
+    #ul_section h2{
+        margin:0px 80px;
+    }
+
+}
+
+
+@media sceen and(max-width:768px)
+{
+    #content_section p{
+        font-size:25px;
+        margin:0px 35px;
+    }
+    #ul_section ul li{
+        
+        font-size:25px;
+        margin:0px 60px 0px 60px;
+        
+    }
+    #ul_section h2{
+        margin:0px 50px;
+    }   
+}
+
+@media sceen and(max-width:576px)
+{
+    #content_section .container-fluid{
+        width:100%;
+    }
+    #content_section p{
+        font-size:25px;
+        margin:0px 20px;
+    }
+    #ul_section ul li{
+        
+        font-size:15px;
+        margin:0px 30px 0px 30px;
+        
+    }
+    #ul_section h2{
+        margin:0px 20px;
+    }   
 }

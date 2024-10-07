@@ -13,10 +13,11 @@
     height:70px;
     border:2px solid #EDF2FA;
     border-radius:10px;
-    color:black;
     margin:40px 0px;
-    
-
+}
+.collapse .card-body
+{
+    border:2px outset white;
 }
 
 #content_section .my_plus h2{
