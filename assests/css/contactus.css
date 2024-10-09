@@ -4,41 +4,40 @@
     padding:0px;
     box-sizing:border-box;
 }
-#content_section .container{
-    padding:50px 200px;
-
-}
-.my_plus{
+/* content section start  */
+  .my_plus{
     width:100%;
     height:70px;
     border:2px solid #EDF2FA;
     border-radius:10px;
     margin:40px 0px;
 }
-.collapse .card-body
-{
-    border:2px outset white;
+#content_section .container-lg .row .card {
+    width:100%;
+    position:relative;
+    top:-35px;
 }
-
 #content_section .my_plus h2{
     padding:5px 20px 10px 40px;
     font-weight:600;
 }
-
-#content_section .my_plus span{
+#content_section .my_plus{
     position:relative;
-    right:-600px;
-    bottom:50px;
-    padding:5px 0px;
 }
-#content_section .my_plus a :click{
-    border-bottom:2px solid white;
+
+#content_section .my_plus div{
+    position:absolute;
+    right:40px;
+    top:20px;
 }
-#content_section .my_plus span:hover{
-    
-}
-.card-body {
+/* content section end  */
+/* form section start  */
+#form_section{
     width:100%;
+    height:auto;
+}
+#form_section .container .row .col{
+    background-color:aqua;
 }
 #send_message_btn{
     font-weight:bold;
@@ -57,8 +56,34 @@
 }
 
 
+/* form section end  */
+
+
+
 
 /* responsive page */
+/* @media screen and (max-width:992px)
+{
+    #content_section .my_plus div{
+        
+        float:right;
+        left:180px;
+        bottom:50px;
+        padding:5px 0px;
+    }
+   
+}
+@media screen and (max-width:768px)
+{
+    #content_section .my_plus div{
+        
+        float:right;
+        left:400px;
+        bottom:50px;
+        padding:5px 0px;
+    }
+   
+}
 @media screen and (max-width:578px)
 {
     #content_section .container{
@@ -66,10 +91,57 @@
         border-color:none;
     
     }   
-    #content_section .my_plus span{
-        position:relative;
-        right:-300px;
-        bottom:40px;
+    #content_section .my_plus div{
+        
+        float:right;
+        left:230px;
+        bottom:50px;
         padding:5px 0px;
     }
-}
+} */
+
+
+/* use this code for form
+
+ <h2 class="text-left py-4">Get In Touch</h2>
+                         <div class="cols-2"></div>
+                         <div class="cols-8">
+                            <form action="">
+                                <div class="mt-3">
+                                    <label for="name">NAME *</label>
+                                    <input type="text" class="form-control" placeholder="Please enter your name">
+                                 </div>
+                                 <div class="mt-3">
+                                    <label for="name">EMAIL *</label>
+                                    <input type="text" class="form-control" placeholder="Please enter your email">
+                                 </div>
+                                 <div class="mt-3">
+                                    <label for="name">PHONE *</label>
+                                    <input type="text" class="form-control" placeholder="Please enter your phone">
+                                 </div> 
+                                 <div class="mt-3">
+                                    <label for="name">MESSAGE *</label>
+                                    <textarea name="" id="" class="form-control" placeholder="Message for us"></textarea>
+                                 </div>
+                                 <div class="mt-3">
+                                    <input type="checkbox" class="form-control-check" >
+                                    <label for="name">Subscribe to our newsletter</label>
+                                 </div>
+                                 <div class="mt-3">
+                                    <label for="captcha">CAPTCHA * <img src="./assests/img/Contactus_img/reload.png" alt=""></label><br><br>
+                                    <img src="./assests/img/Contactus_img/captcha.php" alt="">      
+                                 </div>
+                                 <div class="mt-3">
+                                    <label for="captcha_text">( ENTER CAPTCHA )</label>
+                                    <input type="text" class="form-control">
+                                 </div> 
+                                 <div class="mt-3 mb-3 mx-3">
+                                   <input type="submit" name="submit" class="btn btn-primary" id="send_message_btn" value="SEND MESSAGE">
+                                 </div> 
+                                  <label for="mesg">* These fields are required.</label>
+                             </form>
+                         </div>
+                         <div class="cols-2"></div>
+                        
+
+*/
