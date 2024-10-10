@@ -7,7 +7,7 @@
 p{
     line-height:50px;
     font-size:25px;
-    margin:0px 100px;
+    margin:0px 15px;
 }
 #ul_section ul{
     margin:0px 0px  100px 0px;
@@ -15,9 +15,9 @@ p{
 #ul_section ul li{
     line-height:50px;
     font-size:25px;
-    margin:0px 100px 0px 150px;
+    margin:0px 25px 0px 15px;
     
 }
 #ul_section h2{
-    margin:0px 100px;
+    margin:0px 15px;
 }

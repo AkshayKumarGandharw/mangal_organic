@@ -6,7 +6,7 @@
 #content_section p{
     line-height:50px;
     font-size:25px;
-    margin:0px 100px;
+    margin:0px 15px;
 }
 
  #ul_section ol{
@@ -15,10 +15,24 @@
  #ul_section ol li{
     line-height:50px;
     font-size:25px;
-    margin:0px 100px 0px 150px;
+   // margin:0px 0px 0px 25px;
     
 }
 
 #content_section h2{
-    margin:0px 100px;
+    margin:0px 15px;
 } 
+
+
+@media screen and (max-width:992px)
+{
+    font-size:25px;
+}
+@media screen and (max-width:768px)
+{
+    font-size:20px;
+}
+@media screen and (max-width:576px)
+{
+    font-size:15px;
+}
