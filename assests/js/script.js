@@ -32,7 +32,7 @@ new Swiper('.slider-wrapper', {
 
     loop: true,
     gapCursor: true,
-    spaceBetween: 20,
+    spaceBetween:20,
     autoplay: {
         delay: 2000,
         disableOnInteraction: false
@@ -47,17 +47,17 @@ new Swiper('.slider-wrapper', {
 
     breakpoints: {
         0: {
-            slidesPerView: 1.5
+            slidesPerView: 3
         },
         576: {
-            slidesPerView: 2
+            slidesPerView: 3
         },
         768: {
-            slidesPerView: 2
+            slidesPerView: 3
         }
         ,
         1200: {
-            slidesPerView: 2.50
+            slidesPerView: 3
         }
     }
 

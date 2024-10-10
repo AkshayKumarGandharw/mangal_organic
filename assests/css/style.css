@@ -259,17 +259,17 @@ header .offcanvas-body ul li .submenu li:hover a {
     padding:50px 0px;
     overflow:hidden;
 }
-
  #swiper_section .slider-wrapper{
     
     margin-top:20px; 
     align-items:center;
     position:relative;
-     
+    overflow:hidden;
+  
 }
 
 #swiper_section .slider-wrapper .card-item{
-    margin:40px 20px;
+    margin:40px 0px;
     padding:0px 50px;
     background-color:white;
    
@@ -281,21 +281,24 @@ header .offcanvas-body ul li .submenu li:hover a {
     font-size:25px;
 }
 #swiper_section .slider-wrapper .swiper-pagination-bullets{
-    position:absolute;
-    bottom:-40px;
+    position:relative;
+    top:0px;
+
 }
 #swiper_section .slider-wrapper .swiper-pagination-bullet{
-    background-color:white;
-    border:1px solid gray;
-    height:16px;
-    width:16px;
+    background-color:blue;
+    border:1px solid blue;
+    height:6px;
+    width:20px;
+    border-radius:0px;
     opacity:1;
     transition:all 0.6s;
    
     
 }
 #swiper_section .slider-wrapper .swiper-pagination-bullet-active{
-    background-color:green;
+    background-color:blue;
+    border:1px solid blue;
     height:17px;
     width:17px;
     opacity:1;
@@ -381,23 +384,29 @@ header .offcanvas-body ul li .submenu li:hover a {
     background-color:white;
    
 } 
-
+/* swiper-pagination-bullets */
 #swiper2_section .slider-wrapper .swiper-pagination-bullets{
-    position:absolute;
-    bottom:-40px;
+    position:relative;
+    bottom:0px;
+    top:0px;
+    float:center;
+
+
 }
 #swiper2_section .slider-wrapper .swiper-pagination-bullet{
-    background-color:white;
-    border:1px solid gray;
-    height:16px;
-    width:16px;
+    background-color:red;
+    border:1px solid red;
+    height:10px;
+    width:10px;
+    border-radius:0px;
     opacity:1;
     transition:all 0.6s;
 }
 #swiper2_section .slider-wrapper .swiper-pagination-bullet-active{
     background-color:green;
-    height:17px;
-    width:17px;
+    border:2px solid green;
+    height:1px;
+    width:10px;
     opacity:1;
     transition:all 0.6s;
 }
@@ -419,7 +428,9 @@ footer {
     background-color:#000000;
     color:white;
 }
-
+footer h4{
+    font-size:24px;
+}
 .box{
     border-radius:10px;
     border:2px solid white;
@@ -473,17 +484,7 @@ footer {
     transition:all 0.5s;
 
 }
-/* @keyframes inner-to-out{
-    0%{
-        width:0px;
-        height:0px;
 
-    }
-    100%{
-        width:70px;
-        height:70px;
-    }
-} */
 /*-- FIXED BUTTON END------------------------------ -->
 <!-- -------------------------------------------------- --*/
 
@@ -494,26 +495,27 @@ footer {
 
 /* ------------------------------------------------------------ */
 
-@medea sceen and (max-width:992px){
-    header nav button span{
-        //display:block;
-      //  background-color:white;
-    }
 
-}
 @medea sceen and (max-width:768px){
   
 
-    #product_section #swiper .slider-wrapper .card-item p{
+    /* #product_section #swiper .slider-wrapper .card-item p{
         padding:30px 0px;
         margin:0px;
         font-size:15px;
-    }
+    } */
     
 }
-@medea sceen and (max-width:576px){
+@medea screen and (max-width:576px){
 
+    footer h4{
+        font-size:14px;
+    }
 }
-@medea sceen and (max-width:425px){
- 
+@medea screen and (min-width:425px){
+
+    footer h4{
+        font-size:14px;
+
+    }
 }
