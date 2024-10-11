@@ -23,13 +23,14 @@ p{
     margin:0px 15px;
 }
 
-#table_section .container{
-    background-color:equa;
-    margin:0px 15px;
+#table_section .container-fluid{
+  
+    padding:0px 15px;
     
 
 }
 #table_section tr,th,td{
     border:2px solid gray;
     font-size:14px;
+    
 }
