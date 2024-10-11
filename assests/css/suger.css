@@ -5,6 +5,8 @@
 
 }
 
+
+
 /* content section start */
 #content_section{
    // background-color:green;
@@ -14,3 +16,12 @@
     margin:0px auto;
 } */
 /* content section end */
+
+
+/* responsive page */
+
+@medea sceen and (max-width:425px){
+
+ 
+
+}

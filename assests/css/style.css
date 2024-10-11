@@ -518,4 +518,11 @@ footer h4{
         font-size:14px;
 
     }
+    header .img-fluid{
+        width:200px;
+        height:70px;
+        float:left;
+        margin-left:10px;
+        
+    }
 }
